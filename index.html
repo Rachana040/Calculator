@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>Calculator</title>
+	<link href="style.css" rel="stylesheet">
+	<script src="main.js"></script>
+  </head>
+  
+  <body>
+		<p>Try Me!!</p>
+		<p id="ans">Output</p>
+		 <div>
+		  <input type="button" value="ANS" onClick="answer();"/>
+		  <input type="button" value="CLR" onClick="clr();"/>
+		  <input type="button" value="DEL" onClick="dlt();"/>
+		  <input type="button" value="/" onClick="append(10);"/>
+		  <br/>
+		  <br/>
+		  <input type="button" value="7" onClick="append(7);"/>
+		  <input type="button" value="8" onClick="append(8);"/>
+		  <input type="button" value="9" onClick="append(9);"/>
+		  <input type="button" value="X" onClick="append(11);"/>
+		  <br/>
+		  <br/>
+		  
+		  <input type="button" value="4" onClick="append(4);"/>
+		  <input type="button" value="5" onClick="append(5);"/>
+		  <input type="button" value="6" onClick="append(6);"/>
+		  <input type="button" value="-" onClick="append(12);"/>
+		  
+		  <br/>
+		  <br/>
+		  <input type="button" value="1" onClick="append(1);"/>
+		  <input type="button" value="2" onClick="append(2);"/>
+		  <input type="button" value="3" onClick="append(3);"/>
+		  <input type="button" value="+" onClick="append(13);"/>
+		  <br/>
+		  <br/>
+		  <input type="button" value="+/-"/>
+		  <input type="button" value="0" onClick="append(0);"/>
+		  <input type="button" value="." onClick="append(.);" />
+		  <input type="button" value="=" onClick="cal();"/>
+		  <br/>
+		 </div>
+  </body>
+</html>
